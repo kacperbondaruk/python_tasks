@@ -1,7 +1,24 @@
 from datetime import date, timedelta
 import re
 class UserQuestion ():
-    """_summary_
+    """NAME
+        UserQuestion
+
+        DESCRIPTION
+            Asks user for name and age
+
+        FUNCTIONS
+            question_name(self)
+                Ask user for his name
+            
+            question_age(self)
+                Ask user for his age
+
+            count_years(self)
+                Counting when user age will turn to 100
+            
+            answer(self)
+                Print info to user
     """
     def __init__(self) -> None:
         self.date = date.today()
